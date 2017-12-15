@@ -45,3 +45,10 @@ yarn serve
 
 
 ## Release Management
+
+## End-to-End Testing 
+Run End-to-End Test in e2e folder 
+
+```
+yarn test e2e //need revision
+```
