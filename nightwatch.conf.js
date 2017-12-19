@@ -11,7 +11,7 @@ module.exports = { // we use a nightwatch.conf.js file so we can include comment
   "output_folder": "./node_modules/nightwatch/reports", // reports (test outcome) output by Nightwatch
   "page_objects_path": "page-objects",
   "selenium": {
-    "start_process": true,
+    "start_process": false,
     "server_path": BINPATH + "selenium.jar", // downloaded by selenium-download module (see below)
     "log_path": "",
     "host": "127.0.0.1",
